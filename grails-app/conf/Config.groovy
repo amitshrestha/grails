@@ -87,6 +87,7 @@ grails.hibernate.osiv.readonly = false
 
 environments {
     development {
+        grails.dbconsole.enabled = true
         grails.logging.jul.usebridge = true
     }
     production {
